@@ -4,8 +4,8 @@ A description of cocoapods-happyPush.
 
 ## Installation
 
-    $ gem install cocoapods-happyPush
+    $ gem install -l ${cocoapods-happyPush_spec_path}
 
 ## Usage
 
-    $ pod spec happyPush POD_NAME
+    $ pod repo push --skip-podspec-validation
